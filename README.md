@@ -9,7 +9,7 @@ mkdir /tmp/install_zbpypkg
 cd /tmp/install_zbpypkg
 rm -rf zbpypkg  # The directory may not be present, though.
 git clone https://github.com/zzdrazil/zbpypkg.git
-mv zbpypkg/setup.py .
+cd zbpypkg
 ```
 
 # Install (for yourself only):
@@ -42,5 +42,6 @@ Printing members of the Mammals class
 
 # Clean:
 ```shell
+cd /tmp
 rm -rf /tmp/install_zbpypkg
 ```
