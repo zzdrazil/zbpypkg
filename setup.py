@@ -7,7 +7,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
    name='zbpypkg',
-   version='1.0.0',
+   version='1.0.1',
    description='A simple Python test package',
    author='Zbynek Zdrazil',
    author_email='zbynek.zdrazil@merck.com',
