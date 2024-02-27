@@ -11,7 +11,7 @@ setup(
    description='A simple Python test package',
    author='Zbynek Zdrazil',
    author_email='zbynek.zdrazil@merck.com',
-   packages=['zbpypkg'],  #same as name
+   packages=['.'],  #same as name
    keywords = "test",
    python_requires=">=3.6, <4",
    install_requires=['wheel', 'bar', 'greek'], #external packages as dependencies
